@@ -1,0 +1,13 @@
+{
+    "params": {
+        "siteTitle": "Anuhmate",
+        "footer": ["footer"],
+        "headerBlurb": "For all of your sprite-tastic needs"
+    },
+	"index.html": {
+		"template": "index",
+		"params": {
+			"header": ["header", {"title": "Full of win"}]
+		}
+	}
+}

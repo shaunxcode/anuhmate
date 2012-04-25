@@ -1,0 +1,38 @@
+@import "bootstrap/bootstrap.less";
+
+@media (max-width: 767px) {
+    header, footer {
+        margin-right: -20px;
+        margin-left: -20px;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+}
+
+
+// Template Specific Styles
+
+header {
+    #gradient > .vertical(lighten(@black, 90%), lighten(@black, 95%));
+    margin-bottom: 20px;
+    h1 {
+        padding:50px 0px;
+        font-size:40px;
+    }
+}
+
+.sidebar {
+    .sidebar-nav {
+        padding:9px 0px;
+    }
+}
+
+
+
+footer {
+    #gradient > .vertical(lighten(@black, 10%), lighten(@black, 25%));
+    margin-top: 20px;
+    padding-top:20px;
+    padding-bottom: 20px;
+    color: @white;
+}
